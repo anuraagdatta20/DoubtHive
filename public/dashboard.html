@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - DoubtHive</title>
+    <link rel="stylesheet" href="css/dashboard.css">
+</head>
+<body>
+
+<header>
+    <h2>🐝 DoubtHive</h2>
+
+    <nav>
+        <a href="profile.html">Profile</a>
+        <a href="leaderboard.html">Leaderboard</a>
+        <button id="logoutBtn">Logout</button>
+    </nav>
+</header>
+
+<main>
+
+    <section class="welcome">
+        <h1 id="welcomeText">Welcome!</h1>
+        <p>Post your doubt and find the right classmate to help you.</p>
+    </section>
+
+    <section class="notifications">
+        <h2>🔔 Notifications</h2>
+        <div id="notificationsList">
+            <p>No notifications yet.</p>
+        </div>
+    </section>
+
+    <section class="post-box">
+        <h2>Post a Doubt</h2>
+
+        <form id="doubtForm">
+
+            <input
+                type="text"
+                id="title"
+                placeholder="Doubt title"
+                required
+            >
+
+            <textarea
+                id="description"
+                placeholder="Explain your doubt..."
+                required
+            ></textarea>
+
+            <button type="submit">Post Doubt</button>
+
+        </form>
+
+        <p id="message"></p>
+    </section>
+
+    <section>
+        <h2>Recent Doubts</h2>
+        <div id="doubtsList"></div>
+    </section>
+
+</main>
+
+<script src="js/dashboard.js"></script>
+
+</body>
+</html>

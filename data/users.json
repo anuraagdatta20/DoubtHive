@@ -1,0 +1,60 @@
+[
+  {
+    "id": "1788506843495",
+    "name": "Chandana",
+    "email": "chandanasanapala264@gmail.com",
+    "password": "dattathegreat",
+    "topics": [
+      "java"
+    ],
+    "expertiseLevel": 1,
+    "currentLoad": 0,
+    "points": 70,
+    "badges": []
+  },
+  {
+    "id": "1788507876191",
+    "name": "priya",
+    "email": "priya@gmail.com",
+    "password": "1234567890",
+    "topics": [
+      "java",
+      "dbms"
+    ],
+    "expertiseLevel": 1,
+    "currentLoad": 0,
+    "points": 180,
+    "badges": [
+      "Helper"
+    ]
+  },
+  {
+    "id": "1788508678793",
+    "name": "arjun",
+    "email": "arjun@gmail.com",
+    "password": "123456",
+    "topics": [
+      "python",
+      "dsa"
+    ],
+    "expertiseLevel": 1,
+    "currentLoad": 0,
+    "points": 0,
+    "badges": []
+  },
+  {
+    "id": "1788578962858",
+    "name": "ANURAAG",
+    "email": "anuraag@gmail.com",
+    "password": "anuraag",
+    "topics": [
+      "dsa",
+      "dbms",
+      "python"
+    ],
+    "expertiseLevel": 1,
+    "currentLoad": 0,
+    "points": 0,
+    "badges": []
+  }
+]

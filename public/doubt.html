@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doubt Thread - DoubtHive</title>
+    <link rel="stylesheet" href="css/doubt.css">
+</head>
+<body>
+
+<header>
+    <h2>🐝 DoubtHive</h2>
+    <a href="dashboard.html">← Dashboard</a>
+</header>
+
+<main>
+    <section id="doubtBox" class="doubt-box"></section>
+
+    <section class="replies">
+        <h2>Replies</h2>
+        <div id="replyList"></div>
+    </section>
+
+    <form id="replyForm">
+        <input
+            type="text"
+            id="replyMessage"
+            placeholder="Write your answer..."
+            required
+        >
+        <button type="submit">Send</button>
+    </form>
+
+    <button id="resolveBtn" class="resolve">
+        Mark as Resolved
+    </button>
+
+    <p id="message"></p>
+</main>
+
+<script src="js/doubt.js"></script>
+</body>
+</html>

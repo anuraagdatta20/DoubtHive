@@ -1,0 +1,123 @@
+[
+  {
+    "id": "1788507603600",
+    "userId": "1788506843495",
+    "title": "Java inheritance problem",
+    "description": "I don't understand how inheritance works in Java. Can someone explain it with an example?",
+    "topic": "java",
+    "status": "resolved",
+    "replies": [
+      {
+        "id": "1788508108418",
+        "userId": "1788507876191",
+        "message": "Inheritance allows one Java class to acquire the properties and methods of another class using the extends keyword.",
+        "createdAt": "2026-09-04T07:48:28.418Z"
+      },
+      {
+        "id": "1788578530080",
+        "userId": "1788507876191",
+        "message": "Inheritance in Java is a feature where one class acquires the properties and methods of another class. It lets you reuse code and create a logical hierarchy between related objects.How It WorksSuperclass (Parent): The general class whose features are inherited.Subclass (Child): The specialized class that inherits from the parent using the extends keyword.extends keyword: Tells Java that the child class builds upon the parent class.",
+        "createdAt": "2026-09-05T03:22:10.080Z"
+      }
+    ],
+    "createdAt": "2026-09-04T07:40:03.600Z"
+  },
+  {
+    "id": "1788508410516",
+    "userId": "1788506843495",
+    "title": "Python list problem",
+    "description": "I don't understand how to remove duplicate elements from a Python list.",
+    "topic": "python",
+    "status": "resolved",
+    "replies": [
+      {
+        "id": "1788509042280",
+        "userId": "1788506843495",
+        "message": "You can remove duplicates from a Python list by converting it into a set, for example: list(set(my_list)).",
+        "createdAt": "2026-09-04T08:04:02.280Z"
+      },
+      {
+        "id": "1788578472997",
+        "userId": "1788507876191",
+        "message": "The easiest way to remove duplicate elements from a Python list is by using the built-in set() function or dict.fromkeys() method.",
+        "createdAt": "2026-09-05T03:21:12.997Z"
+      }
+    ],
+    "createdAt": "2026-09-04T07:53:30.516Z"
+  },
+  {
+    "id": "1788577173334",
+    "userId": "1788506843495",
+    "title": "How do I create a Python list?",
+    "description": "I am learning Python and I don't understand how to create and use a list.",
+    "topic": "python",
+    "status": "resolved",
+    "replies": [
+      {
+        "id": "1788577314247",
+        "userId": "1788506843495",
+        "message": "A Python list can be created using square brackets. For example: my_list = [1, 2, 3, 4]",
+        "createdAt": "2026-09-05T03:01:54.247Z"
+      },
+      {
+        "id": "1788578588575",
+        "userId": "1788507876191",
+        "message": "# Create an empty list empty_list = []  # A list of text (strings) fruits = [\"apple\", \"banana\", \"cherry\"]  # A list of numbers (integers) numbers = [10, 20, 30, 40]  # A mixed list mixed_list = [1, \"hello\", True, 3.14]",
+        "createdAt": "2026-09-05T03:23:08.575Z"
+      },
+      {
+        "id": "1788578606505",
+        "userId": "1788507876191",
+        "message": "To create a Python list, you wrap your items inside square brackets [] and separate them with commas. [1] (https://www.youtube.com/watch?v=LWeS6R9IPf4&vl=en), [2] (https://www.w3schools.com/python/python_lists.asp)Lists are used to store multiple items in a single variable. They are highly flexible because they are ordered (they keep their sequence) and changeable (you can add or remove items later). [1] (https://www.w3schools.com/python/python_lists.asp), [2] (https://www.facebook.com/YoungWonks/videos/in-this-video-we-will-learn-what-is-a-list-and-how-to-define-a-list-python-codin/2340637826110601/), [3] (https://developers.google.com/edu/python/lists)",
+        "createdAt": "2026-09-05T03:23:26.505Z"
+      }
+    ],
+    "createdAt": "2026-09-05T02:59:33.334Z"
+  },
+  {
+    "id": "1788615913089",
+    "userId": "1788506843495",
+    "title": "linked list",
+    "description": "i cant understand the single linked list\n",
+    "topic": "dsa",
+    "status": "resolved",
+    "replies": [
+      {
+        "id": "1788616015675",
+        "userId": "1788507876191",
+        "message": "A Singly Linked List is a fundamental linear data structure where elements are not stored in contiguous memory locations. Instead, each element is a separate object called a Node, and they are linked together using pointers.",
+        "createdAt": "2026-09-05T13:46:55.675Z"
+      }
+    ],
+    "createdAt": "2026-09-05T13:45:13.093Z"
+  },
+  {
+    "id": "1788617522860",
+    "userId": "1788506843495",
+    "title": "double linked list",
+    "description": "i cant understand the operations of double linked list",
+    "topic": "dsa",
+    "status": "resolved",
+    "replies": [
+      {
+        "id": "1788617589248",
+        "userId": "1788507876191",
+        "message": "A doubly linked list (DLL) is a data structure where each element (called a node) contains three parts: the actual data, a pointer to the next node, and an extra pointer to the previous node. This two-way connection allows you to traverse or navigate the list both forward and backward.",
+        "createdAt": "2026-09-05T14:13:09.248Z"
+      },
+      {
+        "id": "1788617592613",
+        "userId": "1788507876191",
+        "message": "A doubly linked list (DLL) is a data structure where each element (called a node) contains three parts: the actual data, a pointer to the next node, and an extra pointer to the previous node. This two-way connection allows you to traverse or navigate the list both forward and backward.",
+        "createdAt": "2026-09-05T14:13:12.613Z"
+      },
+      {
+        "id": "1788617597114",
+        "userId": "1788507876191",
+        "message": "A doubly linked list (DLL) is a data structure where each element (called a node) contains three parts: the actual data, a pointer to the next node, and an extra pointer to the previous node. This two-way connection allows you to traverse or navigate the list both forward and backward.",
+        "createdAt": "2026-09-05T14:13:17.114Z"
+      }
+    ],
+    "createdAt": "2026-09-05T14:12:02.861Z"
+  }
+]
